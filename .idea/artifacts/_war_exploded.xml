@@ -1,8 +1,7 @@
 <component name="ArtifactManager">
   <artifact type="exploded-war" name="网上论坛设计:war exploded">
-    <output-path>$PROJECT_DIR$/out/artifacts/_war_exploded</output-path>
+    <output-path>$PROJECT_DIR$/target/com.ling-1.0-SNAPSHOT</output-path>
     <root id="root">
-      <element id="javaee-facet-resources" facet="网上论坛设计/web/Web" />
       <element id="directory" name="WEB-INF">
         <element id="directory" name="classes">
           <element id="module-output" name="网上论坛设计" />
@@ -11,6 +10,7 @@
           <element id="library" level="project" name="sqljdbc4" />
         </element>
       </element>
+      <element id="javaee-facet-resources" facet="网上论坛设计/web/Web" />
     </root>
   </artifact>
 </component>
